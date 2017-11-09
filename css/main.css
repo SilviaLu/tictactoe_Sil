@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+ }
+ .titleh1{
+     font-size: 60px;
+     font-family: 'Rozha One', serif;
+     text-align: center;
+ }
+ .tictactoe{
+     height: 300px;
+     width: 300px;
+     background-color:gray; 
+     font-size: 25px;
+     color: white;
+     font-family: helvetica;
+ }
+ .tictactoe .row{
+     height: 100px;
+ }
+ .tictactoe .row:not(:last-child){
+     border-bottom: 1px solid black;
+ }
+ .tictactoe .row .cell{
+     width: 100px;
+     height: 100px;
+     float: left;
+     text-align: center;
+     padding-top: 34px;
+     
+ }
+ .tictactoe .row .cell:not(:last-child){
+     border-right: 1px solid black;
+ }
